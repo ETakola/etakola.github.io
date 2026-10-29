@@ -1,19 +1,19 @@
 :root {
-  --page-bg: #0f172a;
-  --panel-bg: #111827;
-  --panel-alt: #1c2433;
-  --panel-strong: #0b1220;
-  --text: #f8f5ef;
-  --muted: #d2d7df;
-  --primary: #c9a66b;
-  --primary-strong: #b58d4d;
-  --primary-soft: rgba(201, 166, 107, 0.16);
-  --border: rgba(255, 255, 255, 0.08);
-  --shadow: rgba(0, 0, 0, 0.35);
+  --page-bg: #f3eadb;
+  --panel-bg: #efe2cf;
+  --panel-alt: #e6d3b3;
+  --panel-strong: #d9a86e;
+  --text: #2d1d12;
+  --muted: #5f463a;
+  --primary: #c7773d;
+  --primary-strong: #a95d27;
+  --primary-soft: rgba(199, 119, 61, 0.16);
+  --border: rgba(83, 52, 37, 0.12);
+  --shadow: rgba(92, 62, 42, 0.18);
 }
 
 body {
-  background: linear-gradient(180deg, var(--panel-strong) 0%, var(--page-bg) 100%) !important;
+  background: linear-gradient(180deg, #f6efe6 0%, #f0e3d1 100%) !important;
   color: var(--text) !important;
 }
 
@@ -28,7 +28,7 @@ section.contact,
 section.project,
 section.testimonials,
 section.team {
-  background-color: rgba(17, 24, 39, 0.82) !important;
+  background-color: rgba(255, 250, 244, 0.8) !important;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
 }
@@ -37,7 +37,7 @@ section.team {
 .navbar-fixed-top,
 .navbar-static-top,
 .navbar-default .navbar-collapse {
-  background: rgba(15, 23, 42, 0.86) !important;
+  background: rgba(245, 232, 214, 0.92) !important;
   border-color: var(--border) !important;
 }
 
@@ -45,7 +45,7 @@ section.team {
 .top-navigation .navbar-brand,
 .navbar-default .navbar-brand {
   background: var(--primary) !important;
-  color: #171717 !important;
+  color: #fffaf4 !important;
   border-color: var(--primary) !important;
 }
 
@@ -67,7 +67,7 @@ section.team {
 
 .nav > li.active {
   border-left: 4px solid var(--primary) !important;
-  background: rgba(255, 255, 255, 0.02) !important;
+  background: rgba(255, 255, 255, 0.14) !important;
 }
 
 .btn-primary,
@@ -90,12 +90,12 @@ section.team {
 .btn-warning:active {
   background-color: var(--primary) !important;
   border-color: var(--primary) !important;
-  color: #111111 !important;
+  color: #fffaf4 !important;
 }
 
 .btn-default,
 .btn-white {
-  background: rgba(255, 255, 255, 0.03) !important;
+  background: rgba(255, 255, 255, 0.45) !important;
   color: var(--text) !important;
   border: 1px solid var(--border) !important;
 }
@@ -115,10 +115,10 @@ p, .team-member p, .lead, .desc {
 }
 
 .header-back {
-  background-color: #172033 !important;
+  background-color: #d7aa64 !important;
   background-size: cover !important;
   background-position: center !important;
-  filter: saturate(0.75) contrast(1.1) brightness(0.8);
+  filter: sepia(0.15) saturate(1.1) brightness(0.9) contrast(1.05);
 }
 
 .carousel-caption h1,
@@ -134,7 +134,7 @@ p, .team-member p, .lead, .desc {
 .box,
 .wrapper-content,
 .footer {
-  background: rgba(255, 255, 255, 0.02) !important;
+  background: rgba(255, 255, 255, 0.36) !important;
   border: 1px solid var(--border) !important;
   box-shadow: 0 12px 24px var(--shadow) !important;
 }
