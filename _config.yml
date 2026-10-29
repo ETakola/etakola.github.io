@@ -25,3 +25,5 @@ author:
     - name: icon-python
     - name: icon-database
   desc: I am ETakola, a curious developer focused on building thoughtful software, learning continuously, and creating polished digital experiences.
+  index_carousel: true
+
