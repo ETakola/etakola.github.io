@@ -2,8 +2,8 @@
 title: ETakola
 description: ETakola's personal portfolio website, built with Jekyll and GitHub Pages.
 keywords: etakola, portfolio, developer, software, engineering, github, pages
-baseurl: "/elinatakola.github.io"
-url: "https://ETakola.github.io"
+baseurl: ""
+url: "https://etakola.github.io"
 img_path: /static/assets/img/blog
 
 # author -- index page "about me" section
@@ -12,7 +12,6 @@ author:
   first_name: Elina
   last_name: Takola
   avatar: /static/assets/img/landing/elina-portrait.jpg
-author_github_username: ETakola
   github_username: ETakola
   linkedin_id:
   facebook_username:
