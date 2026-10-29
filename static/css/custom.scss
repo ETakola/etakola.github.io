@@ -7,3 +7,70 @@
 @import "open_sans";
 @import "roboto";
 @import "style";
+
+body {
+  overflow-x: hidden;
+}
+
+.container,
+.container-fluid {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+section.features,
+section.gray-section,
+section.navy-section,
+section.contact,
+section.project,
+section.testimonials,
+section.team {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.card,
+.card-header {
+  width: min(100%, 760px) !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.team-member {
+  margin: 0 auto;
+}
+
+.team-member img,
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#inSlider,
+.header-back {
+  min-height: 420px;
+}
+
+@media (max-width: 768px) {
+  #inSlider,
+  .header-back {
+    min-height: 280px;
+  }
+
+  .card,
+  .card-header {
+    width: 100% !important;
+  }
+
+  .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
