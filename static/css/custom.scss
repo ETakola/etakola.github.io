@@ -1,7 +1,5 @@
 ---
-
 ---
-
 @import "search";
 @import "pygments";
 @import "open_sans";
@@ -108,15 +106,56 @@ section.team {
   display: block;
 }
 
-#inSlider,
-.header-back {
-  min-height: 420px;
+/* FORCE BANNER TO SHOW MIDDLE/LOWER PART OF IMAGE */
+#inSlider {
+  position: relative;
+  min-height: 620px;
+  overflow: hidden;
+}
+
+#inSlider .header-back {
+  min-height: 620px !important;
+  background-position: center 35% !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: scroll !important;
+}
+
+/* SCROLL BUTTON */
+.banner-scroll {
+  position: absolute;
+  left: 50%;
+  bottom: 26px;
+  transform: translateX(-50%);
+  z-index: 20;
+}
+
+.banner-scroll .btn {
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  color: white;
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+}
+
+.banner-scroll .btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.7);
 }
 
 @media (max-width: 768px) {
   #inSlider,
   .header-back {
-    min-height: 280px;
+    min-height: 380px;
+  }
+
+  #inSlider .header-back {
+    background-position: center 40% !important;
   }
 
   #i18_projects .row {
