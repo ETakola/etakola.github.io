@@ -2,8 +2,8 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
-- name: Philly Crash Data
-  i18n: Philly Crash Data
+- name: Individualised niches
+  i18n: Individualised niches
   gh_user: ashdrex
   repo: PhillyCrashData
   img: /static/assets/img/landing/pandas.png
