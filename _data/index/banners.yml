@@ -2,8 +2,5 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
-- src: landing/shattered.png
-  title: first banner image
-
-- src: landing/world_map.png
-  title: second banner image
+- src: landing/marcinjozwiak-forests-5743997.jpg
+  title: my banner image
