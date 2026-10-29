@@ -2,5 +2,5 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
-- src: landing/johnnaturephotos-canyon-9470845_1920.jpg
+- src: landing/IMG20251030142552.jpg
   title: my banner image
