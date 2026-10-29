@@ -9,14 +9,14 @@ img_path: /static/assets/img/blog
 # author -- index page "about me" section
 author:
   name: ETakola
-  first_name: ETakola
-  last_name:
+  first_name: Elina
+  last_name: Takola
   avatar: /static/assets/img/landing/avatar.jpg
   github_username: ETakola
   linkedin_id:
   facebook_username:
   twitter_username:
-  email:
+  email: elina.takola@gmail.com
   cv:
   skill_icon1:
     - name: icon-git
