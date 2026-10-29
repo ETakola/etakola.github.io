@@ -5,6 +5,7 @@ keywords: etakola, portfolio, developer, software, engineering, github, pages
 baseurl:
 url: https://ETakola.github.io
 img_path: /static/assets/img/blog
+index_carousel: true
 
 # author -- index page "about me" section
 author:
@@ -25,5 +26,5 @@ author:
     - name: icon-python
     - name: icon-database
   desc: I am ETakola, a curious developer focused on building thoughtful software, learning continuously, and creating polished digital experiences.
-  index_carousel: true
+
 
