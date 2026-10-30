@@ -181,72 +181,27 @@ permalink: /resume/
 <header class="atn-hero">
     <div class="atn-hero-main">
       <div class="atn-hero-copy">
-        <div class="atn-eyebrow">
-          <svg viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-            <path d="M5 20C7 12 10 7 19 4c-1 8-5 13-13 15" fill="none" stroke="#61704d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M6 19c4-4 7-7 11-10" fill="none" stroke="#9d543c" stroke-width="1.4" stroke-linecap="round"/>
-          </svg>
-          Academic CV &amp; publications
-        </div>
-        <h1>Eleni-Elda<br><span>(Elina) Takola</span></h1>
-        <span class="atn-name-rule" aria-hidden="true"></span>
-        <p class="atn-subtitle">Ecologist &nbsp;&middot;&nbsp; Meta-analyst &nbsp;&middot;&nbsp; Research Group Leader</p>
-        <p class="atn-affiliation">BIOECOS Group · Helmholtz Centre for Environmental Research – UFZ<br>Leipzig, Germany</p>
-      </div>
+<div class="atn-art">
+  <svg viewBox="0 0 450 370" role="img" aria-labelledby="atn-scene-title atn-scene-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="atn-scene-title">Whimsical autumn wildlife illustration</title>
+    <desc id="atn-scene-desc">An abstract and artistic autumn nature illustration with a stylised bird, moon, grasses and organic shapes.</desc>
 
-      <div class="atn-art">
-        <!-- Original, accessible SVG nature illustration: a lapwing and a hare in an autumn meadow. -->
-        <svg viewBox="0 0 450 370" role="img" aria-labelledby="atn-scene-title atn-scene-desc" xmlns="http://www.w3.org/2000/svg">
-          <title id="atn-scene-title">Wildlife in an autumn meadow</title>
-          <desc id="atn-scene-desc">A stylised northern lapwing and a hare, with leaves, grasses and a warm autumn sky.</desc>
-          <!-- A single amber sun, not a tree-ring pattern -->
-          <circle cx="336" cy="98" r="59" fill="#dca361" opacity=".7"/>
-          <path d="M0 246 C75 232 129 246 185 257 C260 272 329 233 450 233 L450 370 L0 370Z" fill="#b5c09a" opacity=".57"/>
-          <path d="M0 285 C71 257 157 274 219 284 C313 299 359 270 450 277 L450 370 L0 370Z" fill="#8d9e78" opacity=".53"/>
-          <!-- Slender autumn branch and leaves -->
-          <path d="M13 211 C48 190 66 148 80 103 C84 89 92 73 106 58" fill="none" stroke="#75815b" stroke-width="4" stroke-linecap="round"/>
-          <path d="M67 151 C43 146 35 127 37 108 C60 109 73 125 67 151Z" fill="#a96f46"/>
-          <path d="M75 116 C94 117 109 100 110 82 C89 81 77 95 75 116Z" fill="#bd8954"/>
-          <path d="M50 185 C26 185 18 166 21 149 C43 149 53 163 50 185Z" fill="#c39b66"/>
-          <path d="M89 84 C66 80 63 61 72 47 C91 53 96 68 89 84Z" fill="#89996b"/>
-          <path d="M27 220 C14 208 10 198 7 181" fill="none" stroke="#75815b" stroke-width="2"/>
-          <!-- Lapwing legs and toes -->
-          <path d="M209 227 L202 310 M241 225 L240 307" stroke="#453b37" stroke-width="3.8" stroke-linecap="round"/>
-          <path d="M202 310 l-17 4 m17-4 l13 6 m-13-6 l-6 8 M240 307 l-17 5 m17-5 l17 5 m-17-5 l-5 7" fill="none" stroke="#453b37" stroke-width="3" stroke-linecap="round"/>
-          <!-- Lapwing body, neck, head and distinctive crest -->
-          <path d="M155 192 C151 168 170 148 199 147 C215 147 232 152 244 166 C244 152 250 143 258 129 C264 116 260 102 268 92 C275 83 288 82 296 91 C301 97 302 104 299 112 C290 123 280 125 276 144 C270 161 278 171 275 188 C268 213 243 229 215 230 C189 231 167 217 155 192Z" fill="#494142"/>
-          <path d="M288 90 C288 70 284 55 276 36 M291 90 C298 65 297 48 294 25 M293 91 C305 74 314 67 327 57" fill="none" stroke="#494142" stroke-width="4.2" stroke-linecap="round"/>
-          <path d="M298 104 L329 110 L299 116Z" fill="#92573b"/>
-          <circle cx="288" cy="99" r="2.6" fill="#f4e7cc"/>
-          <path d="M158 177 C179 159 207 158 249 176 C241 199 222 217 200 220 C184 209 167 196 158 177Z" fill="#ad634c"/>
-          <path d="M170 180 C196 172 215 176 242 188 C231 202 214 211 200 214 C184 205 173 192 170 180Z" fill="#d5b394"/>
-          <path d="M177 170 C196 168 218 170 249 176 C240 187 224 193 209 194 C196 187 184 180 177 170Z" fill="#6d4b48"/>
-          <path d="M158 189 L132 198 L157 200" fill="#494142"/>
-          <!-- Hare ears, body, eye and tail -->
-          <path d="M343 244 C335 224 328 199 330 169 C343 164 352 187 353 217 C359 195 370 170 380 171 C390 180 378 217 368 244Z" fill="#935e45"/>
-          <path d="M339 177 C341 193 344 213 345 224 M379 180 C372 192 365 209 362 224" fill="none" stroke="#d7ab81" stroke-width="3.1" stroke-linecap="round"/>
-          <path d="M334 241 C347 229 372 226 386 240 C394 251 395 260 395 270 C411 280 420 297 415 314 C408 337 381 337 354 336 C328 336 306 324 301 303 C295 281 309 256 329 246Z" fill="#9c6e51"/>
-          <path d="M334 270 C341 251 360 243 374 249" fill="none" stroke="#bc8b68" stroke-width="4" stroke-linecap="round"/>
-          <path d="M302 295 C284 290 284 309 302 313 C310 307 311 301 302 295Z" fill="#faf0d8"/>
-          <ellipse cx="367" cy="247" rx="3.1" ry="3.6" fill="#372f2d"/>
-          <path d="M391 261 l10 3" stroke="#563a34" stroke-width="2.4" stroke-linecap="round"/>
-          <path d="M344 333 c14-13 33-10 46 0" fill="none" stroke="#7c5745" stroke-width="5" stroke-linecap="round"/>
-          <!-- Meadow and seed heads in foreground -->
-          <path d="M0 322 Q68 309 143 323 T293 323 T450 320 L450 370 H0Z" fill="#687a59"/>
-          <g fill="none" stroke="#526b4f" stroke-width="3" stroke-linecap="round">
-            <path d="M23 341l-9-46 M23 341l21-36 M23 341l-16-19 M115 341l-14-43 M115 341l25-38 M154 341l-4-32 M284 341l19-48 M284 341l-10-36 M424 342l-16-44 M424 342l18-37"/>
-          </g>
-          <g fill="#bf8d55">
-            <ellipse cx="14" cy="295" rx="4" ry="9" transform="rotate(-17 14 295)"/>
-            <ellipse cx="102" cy="297" rx="4" ry="9" transform="rotate(-19 102 297)"/>
-            <ellipse cx="302" cy="292" rx="4" ry="9" transform="rotate(15 302 292)"/>
-            <ellipse cx="408" cy="297" rx="4" ry="9" transform="rotate(-16 408 297)"/>
-          </g>
-          <path d="M0 352 Q115 340 220 353 T450 345 L450 370 H0Z" fill="#526b4d" opacity=".76"/>
-        </svg>
-        <span class="atn-art-caption">Wildlife · Landscapes · Ecology</span>
-      </div>
-    </div>
+    <defs>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#efe5d3"/>
+        <stop offset="55%" stop-color="#ddd8bc"/>
+        <stop offset="100%" stop-color="#c9d4b4"/>
+      </linearGradient>
+
+      <linearGradient id="hill1" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#a8b388"/>
+        <stop offset="100%" stop-color="#8a9c73"/>
+      </linearGradient>
+
+      <linearGradient id="hill2" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#7a8a64"/>
+        <stop offset="100%" stop-color="#667854"/>
+      </linearGradient>
     <div class="atn-social" aria-label="Academic and professional profiles">
       <a href="mailto:elina.takola@gmail.com">Email</a>
       <a href="https://orcid.org/0000-0003-1268-5513">ORCID</a>
