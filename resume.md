@@ -643,7 +643,7 @@ permalink: /resume/
     <div class="atn-profile" id="profile">
       <div class="atn-profile-text">
         <p class="atn-kicker">Research profile</p>
-        <p>Greek ecologist and meta-analyst leading the <a href="https://www.ufz.de/index.php?en=37501">BIOECOS Group</a> at the Helmholtz Centre for Environmental Research – UFZ in Leipzig, Germany. My research focuses on evidence synthesis and relationships between organisms and their environments across multiple scales, with a strong commitment to international collaboration, scientific service and open science.</p>
+        <p>Greek ecologist and meta-analyst leading the <a href="https://www.ufz.de/index.php?en=37501">BIOECOS Group</a> at the Helmholtz Centre for Environmental Research (UFZ) in Leipzig, Germany. My research focuses on evidence synthesis and relationships between organisms and their environments across multiple scales, with a strong commitment to international collaboration, scientific service and open science.</p>
       </div>
       <aside class="atn-quickfacts" aria-label="At a glance">
         <p class="atn-kicker">At a glance</p>
