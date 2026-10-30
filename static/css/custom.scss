@@ -21,6 +21,37 @@ body {
   margin-right: 0;
 }
 
+#i18_link .row > .col-sm-4 {
+  text-align: center;
+}
+
+#i18_link .team-member {
+  display: inline-block;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#i18_link .team-member h4,
+#i18_link .team-member p,
+#i18_link .team-member .list-inline.social-icon {
+  text-align: center;
+}
+
+#i18_link .list-inline.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 12px auto 0;
+  padding-left: 0;
+}
+
+#i18_link .list-inline.social-icon li {
+  display: inline-block;
+}
+
 #i18_projects .row {
   display: flex;
   flex-wrap: wrap;
