@@ -1,6 +1,6 @@
 # Website settings
-title: ETakola
-description: ETakola's personal portfolio website, built with Jekyll and GitHub Pages.
+title: Dr. Elina Takola
+description: Dr. Elina Takola's personal portfolio website, built with Jekyll and GitHub Pages.
 keywords: etakola, portfolio, developer, software, engineering, github, pages
 baseurl: ""
 url: "https://etakola.github.io"
@@ -9,7 +9,7 @@ index_carousel: true
 
 # author -- index page "about me" section
 author:
-  name: ETakola
+  name: Dr. Elina Takola
   first_name: Elina
   last_name: Takola
   avatar: /static/assets/img/landing/elina-portrait.jpg
