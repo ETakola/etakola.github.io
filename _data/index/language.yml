@@ -10,3 +10,6 @@
 
 - locale: es
   flag: /static/assets/img/flags/Spain.png
+
+- locale: zh
+  flag: /static/assets/img/flags/China.png
