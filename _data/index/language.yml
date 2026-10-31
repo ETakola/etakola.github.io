@@ -7,3 +7,6 @@
 
 - locale: el
   flag: /static/assets/img/flags/Greece.png
+
+- locale: es
+  flag: /static/assets/img/flags/Spain.png
