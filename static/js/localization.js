@@ -27,6 +27,12 @@ $(document).ready(function() {
     $('#i18_blog').i18n();
     $('#i18_link').i18n();
     $('[data-i18n]').i18n();
+
+    if (typeof window.translateResumePage === 'function') {
+      window.translateResumePage();
+    }
+
+    document.documentElement.lang = (i18n && i18n.lng) ? i18n.lng : 'en';
   };
 
   $("[id^=set_lang]").each(function() {
