@@ -2,66 +2,30 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
-# projects section data
-# If you don't have language feature(language.yml is empty), ignore "i18n" items
-# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Coming soon
+  i18n: comingsoon
+  gh_user:
+  repo:
+  img:
+  desc:
 
-- name: EcologicalNicheEvidenceSynthesis
-  i18n: ecologicalnicheevidencesynthesis
-  gh_user: ETakola
-  repo: EcologicalNicheEvidenceSynthesis
-  img: /static/assets/img/landing/pandas.png
-  desc: Σύνθεση στοιχείων για οικολογικές θέσεις, κλιματικές τάσεις και επιπτώσεις στη βιοποικιλότητα.
+- name: Coming soon
+  i18n: comingsoon
+  gh_user:
+  repo:
+  img:
+  desc:
 
-- name: individualised_niches
-  i18n: individualised_niches
-  gh_user: ETakola
-  repo: individualised_niches
-  img: /static/assets/img/landing/umaine.jpg
-  desc: Έρευνα για τις ατομικές και διασυνοριακές διαφορές στην επιλογή οικοτόπου και στις οικολογικές συνθήκες.
+- name: Coming soon
+  i18n: comingsoon
+  gh_user:
+  repo:
+  img:
+  desc:
 
-- name: NoveltyAt2ndGlance
-  i18n: noveltyat2ndglance
-  gh_user: ETakola
-  repo: NoveltyAt2ndGlance
-  img: /static/assets/img/landing/stardasher.png
-  desc: Μετα-αναλυτική αποτίμηση της παρατήρησης νέων αντικειμένων και της συμπεριφορικής έρευνας.
-
-- name: surrounding_landscapes
-  i18n: surrounding_landscapes
-  gh_user: ETakola
-  repo: surrounding_landscapes
-  img: /static/assets/img/landing/pgbot_dark.png
-  desc: Ανάλυση χωρικών μοτίβων και αλληλεπιδράσεων τοπίου-οικοτόπου σε διαφορετικές κλίμακες.
-
-  # projects section data
-# If you don't have language feature(language.yml is empty), ignore "i18n" items
-# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-
-- name: EcologicalNicheEvidenceSynthesis
-  i18n: ecologicalnicheevidencesynthesis
-  gh_user: ETakola
-  repo: EcologicalNicheEvidenceSynthesis
-  img: /static/assets/img/landing/pandas.png
-  desc: Σύνθεση στοιχείων για οικολογικές θέσεις, κλιματικές τάσεις και επιπτώσεις στη βιοποικιλότητα.
-
-- name: individualised_niches
-  i18n: individualised_niches
-  gh_user: ETakola
-  repo: individualised_niches
-  img: /static/assets/img/landing/umaine.jpg
-  desc: Έρευνα για τις ατομικές και διασυνοριακές διαφορές στην επιλογή οικοτόπου και στις οικολογικές συνθήκες.
-
-- name: NoveltyAt2ndGlance
-  i18n: noveltyat2ndglance
-  gh_user: ETakola
-  repo: NoveltyAt2ndGlance
-  img: /static/assets/img/landing/stardasher.png
-  desc: Μετα-αναλυτική αποτίμηση της παρατήρησης νέων αντικειμένων και της συμπεριφορικής έρευνας.
-
-- name: surrounding_landscapes
-  i18n: surrounding_landscapes
-  gh_user: ETakola
-  repo: surrounding_landscapes
-  img: /static/assets/img/landing/pgbot_dark.png
-  desc: Ανάλυση χωρικών μοτίβων και αλληλεπιδράσεων τοπίου-οικοτόπου σε διαφορετικές κλίμακες.
+- name: Coming soon
+  i18n: comingsoon
+  gh_user:
+  repo:
+  img:
+  desc:
