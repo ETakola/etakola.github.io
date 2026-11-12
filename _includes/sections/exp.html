@@ -6,22 +6,42 @@
         </div>
     </div>
     <div class="row features-block">
-        <div class="col-lg-12">
-            <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
-            {% for career in site.data.index.careers %}
-            {% assign loopindex = forloop.index | modulo: 2 %}
-                <div class="vertical-timeline-block">
-                    <div class="vertical-timeline-icon {% if career.present ==  true %} white-bg {% else %} navy-bg {% endif %} wow rotateIn">
-                        <i class="fa {{ career.icon }}"></i>
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="experience-accordion">
+                <details class="experience-item" style="margin-bottom: 15px; padding: 18px 22px; background: #fff; border: 1px solid #e7eaec; border-radius: 8px;">
+                    <summary style="cursor: pointer; font-size: 20px; font-weight: 600; color: #1ab394;">Group leader</summary>
+                    <div style="padding-top: 12px; line-height: 1.7;">
+                        <p><strong>2024–present</strong> · Group leader, BIOECOS group, Department of Computational Landscape Ecology, Helmholtz Centre for Environmental Research – UFZ, Leipzig, Germany.</p>
                     </div>
-                    <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
-                        <h2><span class="navy" data-i18n="career.{{ career.name.i18n }}">{{ career.name.detail }}</span></h2>
-                        <p><span data-i18n="career.{{ career.desc.i18n }}">{{ career.desc.detail }} </span></p>
-                        <span class="vertical-date"><span data-i18n="career.{{ career.date.i18n }}"> {{ career.date.detail }} </span>
-                        <br/> <small><span data-i18n="career.{{ career.job.i18n }}">{{ career.job.detail }}</span></small> </span>
+                </details>
+                <details class="experience-item" style="margin-bottom: 15px; padding: 18px 22px; background: #fff; border: 1px solid #e7eaec; border-radius: 8px;">
+                    <summary style="cursor: pointer; font-size: 20px; font-weight: 600; color: #1ab394;">Postdoc</summary>
+                    <div style="padding-top: 12px; line-height: 1.7;">
+                        <p><strong>2022–2024</strong> · Postdoctoral researcher, Department of Computational Landscape Ecology (BIOECOS research group), Helmholtz Centre for Environmental Research – UFZ, Leipzig, Germany.</p>
                     </div>
-                </div>
-            {% endfor %}
+                </details>
+                <details class="experience-item" style="margin-bottom: 15px; padding: 18px 22px; background: #fff; border: 1px solid #e7eaec; border-radius: 8px;">
+                    <summary style="cursor: pointer; font-size: 20px; font-weight: 600; color: #1ab394;">PhD</summary>
+                    <div style="padding-top: 12px; line-height: 1.7;">
+                        <p><strong>2018–2022</strong> · PhD, Friedrich Schiller University Jena, Germany. Supervisor: Prof. Holger Schielzeth. Funded by the German Research Foundation (DFG).</p>
+                        <p>Thesis: <em>“Scaling down the ecological niche from populations to individuals: an evidence synthesis approach.”</em> Research focused on evidence synthesis and scaling ecological niches from populations to individuals.</p>
+                    </div>
+                </details>
+                <details class="experience-item" style="margin-bottom: 15px; padding: 18px 22px; background: #fff; border: 1px solid #e7eaec; border-radius: 8px;">
+                    <summary style="cursor: pointer; font-size: 20px; font-weight: 600; color: #1ab394;">Postgraduate studies</summary>
+                    <div style="padding-top: 12px; line-height: 1.7;">
+                        <p><strong>2016–2018</strong> · MSc, Faculty of Forestry and Natural Environment, Aristotle University of Thessaloniki, Greece.</p>
+                        <p>Thesis: <em>“Herpetofauna-habitat relationships in the suburban forest of Thessaloniki.”</em> Supervisor: Prof. Dimitrios Bakaloudis.</p>
+                        <p><strong>2018</strong> · Erasmus Placement, University of Glasgow, UK.</p>
+                    </div>
+                </details>
+                <details class="experience-item" style="margin-bottom: 15px; padding: 18px 22px; background: #fff; border: 1px solid #e7eaec; border-radius: 8px;">
+                    <summary style="cursor: pointer; font-size: 20px; font-weight: 600; color: #1ab394;">Undergraduate studies</summary>
+                    <div style="padding-top: 12px; line-height: 1.7;">
+                        <p><strong>2010–2016</strong> · BSc, Faculty of Forestry and Natural Environment, Aristotle University of Thessaloniki, Greece.</p>
+                        <p>Thesis: <em>“Population structure and morphometric traits of Hermann’s tortoise (<i>Testudo hermanni</i>) and spur-thighed tortoise (<i>Testudo graeca</i>) in the suburban forest of Thessaloniki.”</em> Supervisor: Prof. Dimitrios Bakaloudis.</p>
+                    </div>
+                </details>
             </div>
         </div>
     </div>
