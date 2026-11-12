@@ -5,8 +5,9 @@
             <h1><span data-i18n="projects.my_projects">My Projects</span></h1>
         </div>
     </div>
+    {% assign all_projects = site.data.index.projects | concat: site.data.index.additional_projects %}
     <div class="row">
-        {% for project in site.data.index.projects %}
+        {% for project in all_projects %}
             {% assign loopindex = forloop.index | modulo: 2 %}
             {% if forloop.last %}
                 {% if forloop.last == forloop.first %}
@@ -18,17 +19,28 @@
             <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
             {% endif %}
               <div class="team-member">
-                  <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                  {% assign icon_shape = forloop.index | modulo: 4 %}
+                  <svg class="project-vector-icon" viewBox="0 0 100 100" role="img" aria-label="Abstract geometric project icon" style="width: 100px; height: 100px; display: block; margin: 0 auto 16px;">
+                    {% if icon_shape == 0 %}
+                      <circle cx="50" cy="50" r="37" fill="#f2d9bd" stroke="#9d543c" stroke-width="3"/><path d="M50 17 80 72H20Z" fill="#61704d"/><circle cx="50" cy="53" r="9" fill="#fffefa"/>
+                    {% elsif icon_shape == 1 %}
+                      <rect x="16" y="16" width="68" height="68" rx="13" fill="#f2e8da" stroke="#61704d" stroke-width="3"/><path d="M22 68 48 29 76 72Z" fill="#b27b40"/><circle cx="68" cy="32" r="8" fill="#9d543c"/>
+                    {% elsif icon_shape == 2 %}
+                      <path d="M50 10 92 50 50 90 8 50Z" fill="#e9d8c8" stroke="#753e34" stroke-width="3"/><path d="M50 25 75 50 50 75 25 50Z" fill="#61704d"/><circle cx="50" cy="50" r="7" fill="#fffefa"/>
+                    {% else %}
+                      <circle cx="50" cy="50" r="39" fill="#f5eadc" stroke="#b27b40" stroke-width="3"/><path d="M50 13 61 39 88 40 67 58 74 85 50 70 26 85 33 58 12 40 39 39Z" fill="#9d543c"/><circle cx="50" cy="50" r="8" fill="#fffefa"/>
+                    {% endif %}
+                  </svg>
                   <h4>
                   {% if project.url %}
-                  <a href="{{ project.url }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
+                  <a href="{{ project.url }}" target="_blank" rel="noopener noreferrer"><span class="navy">{{ project.name }}</span></a>
                   {% elsif project.repo %}
-                  <a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
+                  <a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank" rel="noopener noreferrer"><span class="navy">{{ project.name }}</span></a>
                   {% else %}
                   <span class="navy">{{ project.name }}</span>
                   {% endif %}
                   </h4>
-                  <p><span data-i18n="projects.{{ project.i18n }}"></span>{{ project.desc }}</span></p>
+                  <p><span data-i18n="projects.{{ project.i18n }}"></span>{{ project.desc }}</p>
                   <div style="height: 30px;"></div>
                   <!-- {% if project.repo %}
                   <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn">
