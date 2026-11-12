@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var storageKey = 'siteLocale';
-  var defaultLocale = 'el';
+  var defaultLocale = 'en';
 
   var getStoredLocale = function() {
     try {
