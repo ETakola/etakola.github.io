@@ -309,9 +309,44 @@ permalink: /resume/
       </div>
     </section>
 
-    <section class="atn-section" id="publications">
-      <div class="atn-heading"><span class="atn-n">10</span><h2 data-resume-i18n="resume.sections.publications">Publications &amp; research outputs</h2></div>
-      <p class="atn-introline">Peer-reviewed articles, manuscripts, preprints, software and science communication.</p>
+   <section class="atn-section" id="publications">
+  <div class="atn-heading"><span class="atn-n">10</span><h2 data-resume-i18n="resume.sections.publications">Publications &amp; research outputs</h2></div>
+  <p class="atn-introline">Peer-reviewed articles, manuscripts, preprints, software and science communication.</p>
+
+  <ul class="atn-pubs">
+    <li class="atn-pub">
+      <div class="atn-pub-year">2025</div>
+      <div>
+        <span class="atn-pub-title"><a href="https://doi.org/..." target="_blank" rel="noopener noreferrer">Your paper title</a></span>
+        <p>Author list here. <em>Journal name</em>.</p>
+      </div>
+    </li>
+
+    <li class="atn-pub">
+      <div class="atn-pub-year">2024</div>
+      <div>
+        <span class="atn-pub-title"><a href="https://doi.org/..." target="_blank" rel="noopener noreferrer">Another paper</a></span>
+        <p>Author list here. <em>Journal name</em>.</p>
+      </div>
+    </li>
+
+    <li class="atn-pub">
+      <div class="atn-pub-year">2023</div>
+      <div>
+        <span class="atn-pub-title"><a href="https://doi.org/..." target="_blank" rel="noopener noreferrer">Third paper</a></span>
+        <p>Author list here. <em>Journal name</em>.</p>
+      </div>
+    </li>
+
+    <li class="atn-pub">
+      <div class="atn-pub-year">2022</div>
+      <div>
+        <span class="atn-pub-title"><a href="https://doi.org/..." target="_blank" rel="noopener noreferrer">Fourth paper</a></span>
+        <p>Author list here. <em>Journal name</em>.</p>
+      </div>
+    </li>
+  </ul>
+</section>
     </section>
   </div>
 
