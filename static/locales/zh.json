@@ -13,7 +13,7 @@
   },
   "about_me": {
     "about_me": "关于我",
-    "des": "我是一名生态学家和元分析研究者，目前在德国莱比锡的赫尔姆霍兹环境研究中心（UFZ）工作。我的研究重点是动物栖息地利用、景观生态学和生物多样性保护证据综合。"
+    "des": "我是一名生态学家和元分析研究者，目前在德国莱比锡的赫尔姆霍兹环境研究中心（UFZ）工作。我的研究重点是动物栖息地利用、景观生态和生物多样性保护的证据综合。"
   },
   "skills": {
     "my_skills": "技能"
@@ -30,6 +30,16 @@
   },
   "career": {
     "my_career": "我的经历",
+    "group_leader": "组长",
+    "postdoc": "博士后",
+    "phd": "博士",
+    "postgraduate_studies": "研究生学习",
+    "internship": "实习",
+    "undergraduate_studies": "本科学习",
+    "teaching_experience": "教学经历",
+    "supervision": "指导",
+    "msc_theses": "硕士论文",
+    "bsc_theses": "学士论文",
     "ufz": "UFZ – Helmholtz Centre for Environmental Research",
     "ufz_desc": "开展生态系统研究、元分析和证据综合，以支持生物多样性保护。",
     "ufz_date": "2022–至今",
