@@ -1,8 +1,8 @@
 # Website settings
 title: Dr. Elina Takola
-description: Dr. Elina Takola είναι Ελληνίδα οικολόγος και αναλυτής δεδομένων με έδρα το UFZ στη Λειψία. Η έρευνα της εστιάζει στη χρήση των οικοτόπων, στη χωρική οικολογία και στη διατήρηση της βιοποικιλότητας.
-keywords: Elina Takola, Dr. Elina Takola, Eleni Elda Takola, Elina Takola ecologist, Elina Takola researcher, Elina Takola publications, Elina Takola CV, Elina Takola UFZ, Elina Takola BIOECOS, ecology, biodiversity, conservation, meta-analysis
-baseurl: ""
+description: Dr. Elina Takola είναι Ελληνίδα οικολόγος και αναλυτής δεδομένων με έδρα το UFZ στη Λειψία.
+keywords: Elina Takola, Dr. Elina Takola, Eleni Elda Takola, Elina Takola ecologist, Elina Takola researcher, Elina Takola publications, Elina Takola CV, Elina Takola UFZ, Elina Takola BIOECOS
+tbaseurl: ""
 url: "https://etakola.github.io"
 img_path: /static/assets/img/blog
 index_carousel: true
@@ -14,7 +14,7 @@ author:
   last_name: Takola
   avatar: /static/assets/img/landing/elina-portrait.jpg
   github_username: ETakola
-  linkedin_id:
+  linkedin_id: dr-elina-takola
   facebook_username:
   twitter_username:
   email: elina.takola@gmail.com
@@ -25,4 +25,4 @@ author:
   skill_icon2:
     - name: icon-python
     - name: icon-database
-  desc: "Είμαι Ελληνίδα οικολόγος και μετα-αναλυτικός ερευνητής στο Helmholtz Centre for Environmental Research – UFZ στη Λειψία. Η έρευνά μου εστιάζει στη συνθετική ανάλυση δεδομένων, στη χρήση των οικοτόπων, στη χωρική οικολογία και στη διατήρηση της βιοποικιλότητας."
+  desc: "Είμαι Ελληνίδα οικολόγος και μετα-αναλυτικός ερευνητής στο Helmholtz Centre for Environmental Research – UFZ στη Λειψία."
