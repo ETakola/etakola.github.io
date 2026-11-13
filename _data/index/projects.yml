@@ -33,6 +33,19 @@
     Implemented in R and demonstrated using northern lapwing tracking
     data, the framework can be applied to other mobile species.
 
+- name: My PhD Thesis
+  i18n:
+  gh_user:
+  repo:
+  img: /static/assets/img/projects/projects/FSU.png
+  url: https://www.researchgate.net/publication/361763446_PhD_Thesis_-_Scaling_down_the_ecological_niche_from_populations_to_individuals_an_evidence_synthesis_approach
+  desc: >-
+    I defended my PhD in November 2022. The title was <em>Scaling down 
+    the ecological niche from populations to individuals; an evidence 
+    synthesis approach</em>. I graduated with <em>suma cum laude</em> 
+    from Friedrich-Schiller University of Jena (Germany)!
+
+
 - name: Coming soon
   i18n: comingsoon
   gh_user:
