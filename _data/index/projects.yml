@@ -46,12 +46,19 @@
     from Friedrich-Schiller University of Jena (Germany)!
 
 
-- name: Coming soon
-  i18n: comingsoon
+- name: Animal Personalities
+  i18n:
   gh_user:
   repo:
-  img:
-  desc:
+  img: /static/assets/img/projects/novelobject.png
+  url: https://www.sciencedirect.com/science/article/pii/S0003347221002438
+  desc: >-
+  This project investigates whether novel-object tests reliably measure 
+  consistent individual differences in animal behaviour. Through a meta-analysis 
+  of 115 studies across 70 species, we found that behavioural responses were 
+  generally repeatable, but varied considerably across studies and testing 
+  conditions. Our findings highlight both the usefulness and limitations 
+  of novel-object tests for studying animal personality.
 
 - name: Coming soon
   i18n: comingsoon
