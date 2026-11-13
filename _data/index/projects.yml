@@ -16,9 +16,11 @@
     dimensionality and boundaries defined by reproductive success.
 
 - name: Individualised niche workflow
-  i18n: comingsoon
+  i18n:
   gh_user:
-  repo: img:/static/assets/img/projects/indivnicheworkfl.png
+  repo:
+  img: /static/assets/img/projects/indivnicheworkfl.png
+  url: https://ibe.pensoft.net/article/203247/
   desc: This project develops a framework for quantifying individualised 
   ecological niches using animal movement data. It combines resource selection 
   functions with multidimensional niche hypervolumes to measure niche 
