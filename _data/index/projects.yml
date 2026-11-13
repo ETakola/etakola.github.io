@@ -1,13 +1,17 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+# projects section data
+
 - name: Individualised niche definition
   i18n:
   gh_user:
   repo:
   img: /static/assets/img/projects/nichebound.png
   url: https://doi.org/10.1007/s10539-022-09849-y
-  desc: This conceptual project extends Hutchinson΄s ecological niche
+  desc: >-
+    This conceptual project extends Hutchinson's ecological niche
     framework to individuals. It defines the individualised niche
     as the range of environmental conditions under which an
     individual has an expected lifetime reproductive success
@@ -21,12 +25,13 @@
   repo:
   img: /static/assets/img/projects/indivnicheworkfl.png
   url: https://ibe.pensoft.net/article/203247/
-  desc: This project develops a framework for quantifying individualised 
-  ecological niches using animal movement data. It combines resource selection 
-  functions with multidimensional niche hypervolumes to measure niche 
-  breadth, overlap and individual specialisation. Implemented in R 
-  and demonstrated using northern lapwing tracking data, the 
-  framework can be applied to other mobile species.
+  desc: >-
+    This project develops a framework for quantifying individualised
+    ecological niches using animal movement data. It combines resource
+    selection functions with multidimensional niche hypervolumes to
+    measure niche breadth, overlap and individual specialisation.
+    Implemented in R and demonstrated using northern lapwing tracking
+    data, the framework can be applied to other mobile species.
 
 - name: Coming soon
   i18n: comingsoon
