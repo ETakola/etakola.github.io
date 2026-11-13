@@ -45,7 +45,12 @@
             <h7><span data-i18n="about_me.des">{{ site.author.desc }}</span></h7>
 
             <div style="height: 25px;"></div>
-            <a class="btn btn-lg btn-default btn-rounded btn-outline navy-bg wow bounceIn" href="{{ "/resume/" | prepend: site.baseurl }}"><span data-i18n="blog.my_blog">View Resume</span></a>
+<a class="autumn-resume-btn"
+   href="{{ '/resume/' | prepend: site.baseurl }}">
+  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+  <span>View Resume (in English)</span>
+  <span class="resume-arrow" aria-hidden="true">&rarr;</span>
+</a>
             <div style="height: 15px;"></div>
         </div>
     </div>
