@@ -1,13 +1,20 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-
-- name: Coming soon
-  i18n: comingsoon
+- name: Individualised niches
+  i18n:
   gh_user:
   repo:
-  img:
-  desc:
+  img: /static/assets/img/projects/nichebound.png
+  url: https://doi.org/10.1007/s10539-022-09849-y
+  desc: >-
+    This conceptual project extends Hutchinson's ecological niche
+    framework to individuals. It defines the individualised niche
+    as the range of environmental conditions under which an
+    individual has an expected lifetime reproductive success
+    of at least one surviving offspring. The framework addresses
+    individual uniqueness, temporal dynamics, niche
+    dimensionality and boundaries defined by reproductive success.
 
 - name: Coming soon
   i18n: comingsoon
