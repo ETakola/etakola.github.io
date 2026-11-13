@@ -5,7 +5,7 @@
             <h1><span data-i18n="projects.my_projects">My Projects</span></h1>
         </div>
     </div>
-    {% assign all_projects = site.data.index.projects | concat: site.data.index.additional_projects %}
+   {% assign all_projects = site.data.index.projects %}
     <div class="row">
         {% for project in all_projects %}
             {% assign loopindex = forloop.index | modulo: 2 %}
