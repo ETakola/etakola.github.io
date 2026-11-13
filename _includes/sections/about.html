@@ -1,60 +1,301 @@
+
+<style>
+/* =========================================
+   AUTUMN PROFILE PHOTO AND DECORATIVE ICONS
+   ========================================= */
+
+/* Full-width horizontal layout */
+#i18_about_me .autumn-profile-row {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, 1fr)
+    182px
+    minmax(0, 1fr)
+    minmax(0, 1fr);
+  align-items: center;
+  justify-items: center;
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 25px;
+  padding: 10px 0;
+}
+
+/* Profile photograph */
+#i18_about_me .autumn-profile-photo {
+  display: block;
+  width: 182px;
+  height: 182px;
+  max-width: none;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fffefa;
+  box-shadow: 0 8px 28px rgba(89, 63, 67, 0.16);
+}
+
+/* Non-interactive decorative icons */
+#i18_about_me .autumn-decoration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 43px;
+  line-height: 1;
+
+  pointer-events: none;
+  user-select: none;
+
+  transition: none;
+}
+
+/* Individual autumn colours */
+#i18_about_me .autumn-leaf {
+  color: #9d543c;
+}
+
+#i18_about_me .autumn-paw {
+  color: #61704d;
+}
+
+#i18_about_me .autumn-globe {
+  color: #b27b40;
+}
+
+#i18_about_me .autumn-chart {
+  color: #753e34;
+}
+
+/* Tablet layout: retain one horizontal line */
+@media (max-width: 767px) {
+  #i18_about_me .autumn-profile-row {
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(0, 1fr)
+      145px
+      minmax(0, 1fr)
+      minmax(0, 1fr);
+    max-width: 100%;
+  }
+
+  #i18_about_me .autumn-profile-photo {
+    width: 145px;
+    height: 145px;
+  }
+
+  #i18_about_me .autumn-decoration {
+    font-size: 30px;
+  }
+}
+
+/* Mobile layout: all five elements stay in one line */
+@media (max-width: 480px) {
+  #i18_about_me .autumn-profile-row {
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(0, 1fr)
+      110px
+      minmax(0, 1fr)
+      minmax(0, 1fr);
+    padding: 5px 0;
+    margin-bottom: 18px;
+  }
+
+  #i18_about_me .autumn-profile-photo {
+    width: 110px;
+    height: 110px;
+    border-width: 3px;
+  }
+
+  #i18_about_me .autumn-decoration {
+    font-size: 23px;
+  }
+}
+</style>
+
+
 <div class="container" id="i18_about_me">
+
+    <!-- ABOUT ME HEADING -->
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
-            <h1><span data-i18n="about_me.about_me">About Me</span></h1>
+            <h1>
+                <span data-i18n="about_me.about_me">About Me</span>
+            </h1>
         </div>
     </div>
 
+
+    <!-- PROFILE PHOTO WITH FOUR HORIZONTAL ICONS -->
     <div class="row">
         <div class="col-lg-12 text-center">
-            <div class="team-member wow zoomIn" style="display: inline-block; margin: 0 auto;">
-                <img src="{{ site.author.avatar | prepend: site.baseurl }}" height="150" width="150" class="img-responsive img-circle" alt="Profile image" style="margin: 0 auto; object-fit: cover;">
+
+            <div class="autumn-profile-row wow zoomIn">
+
+                <!-- Left icon 1: Ecology -->
+                <span class="autumn-decoration autumn-leaf"
+                      aria-hidden="true">
+                    <i class="fa fa-leaf"></i>
+                </span>
+
+                <!-- Left icon 2: Animals -->
+                <span class="autumn-decoration autumn-paw"
+                      aria-hidden="true">
+                    <i class="fa fa-paw"></i>
+                </span>
+
+                <!-- Centre: Profile photograph -->
+                <img
+                    src="{{ site.author.avatar | prepend: site.baseurl }}"
+                    class="autumn-profile-photo"
+                    alt="Profile photograph"
+                    width="182"
+                    height="182"
+                >
+
+                <!-- Right icon 1: Global ecology -->
+                <span class="autumn-decoration autumn-globe"
+                      aria-hidden="true">
+                    <i class="fa fa-globe"></i>
+                </span>
+
+                <!-- Right icon 2: Data analysis -->
+                <span class="autumn-decoration autumn-chart"
+                      aria-hidden="true">
+                    <i class="fa fa-bar-chart"></i>
+                </span>
+
             </div>
+
         </div>
     </div>
 
+
+    <!-- SOCIAL MEDIA AND BIOGRAPHY -->
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
-            <p>
-                <ul class="list-inline social-icon">
-                    {% if site.author.github_username %}
-                    <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github fa-lg"></i></a></li>
-                    {% endif %}
-                    {% if site.author.linkedin_id %}
-                    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                    {% endif %}
-                    <li><a href="https://blueskydirectory.com/profiles/elinatakola.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky profile"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" style="vertical-align: -0.125em; fill: currentColor;" aria-hidden="true"><path d="M6.335 5.144c2.39 1.8 4.96 5.45 5.665 7.41.705-1.96 3.275-5.61 5.665-7.41C19.39 3.85 22.5 2.85 22.5 6.4c0 .71-.405 5.96-.643 6.81-.828 2.95-3.85 3.71-6.54 3.07 4.71.8 5.91 3.45 3.32 6.1-4.91 5.02-7.06-1.26-7.61-3.24-.1-.36-.14-.53-.14-.39 0-.14-.04.03-.14.39-.55 1.98-2.7 8.26-7.61 3.24-2.59-2.65-1.39-5.3 3.32-6.1-2.69.64-5.712-.12-6.54-3.07C.168 12.36-.237 7.11-.237 6.4c0-3.55 3.11-2.55 6.572-1.256z"/></svg></a></li>
-                    {% if site.author.facebook_username %}
-                    <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook fa-lg"></i></a></li>
-                    {% endif %}
-                    {% if site.author.twitter_username %}
-                    <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter fa-lg"></i></a></li>
-                    {% endif %}
-                    {% if site.author.email %}
-                    <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o fa-lg"></i></a></li>
-                    {% endif %}
-                    {% if site.author.cv %}
-                    <li><a href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o fa-lg"></i></a></li>
-                    {% endif %}
-                </ul>
+
+            <ul class="list-inline social-icon">
+
+                {% if site.author.github_username %}
+                <li>
+                    <a href="https://github.com/{{ site.author.github_username }}"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub profile">
+                        <i class="fa fa-github fa-lg"></i>
+                    </a>
+                </li>
+                {% endif %}
+
+                {% if site.author.linkedin_id %}
+                <li>
+                    <a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn profile">
+                        <i class="fa fa-linkedin fa-lg"></i>
+                    </a>
+                </li>
+                {% endif %}
+
+                <li>
+                    <a href="https://blueskydirectory.com/profiles/elinatakola.bsky.social"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Bluesky profile">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 24 24"
+                             width="1em"
+                             height="1em"
+                             style="vertical-align: -0.125em; fill: currentColor;"
+                             aria-hidden="true">
+                            <path d="M6.335 5.144c2.39 1.8 4.96 5.45 5.665 7.41.705-1.96 3.275-5.61 5.665-7.41C19.39 3.85 22.5 2.85 22.5 6.4c0 .71-.405 5.96-.643 6.81-.828 2.95-3.85 3.71-6.54 3.07 4.71.8 5.91 3.45 3.32 6.1-4.91 5.02-7.06-1.26-7.61-3.24-.1-.36-.14-.53-.14-.39 0-.14-.04.03-.14.39-.55 1.98-2.7 8.26-7.61 3.24-2.59-2.65-1.39-5.3 3.32-6.1-2.69.64-5.712-.12-6.54-3.07C.168 12.36-.237 7.11-.237 6.4c0-3.55 3.11-2.55 6.572-1.256z"/>
+                        </svg>
+                    </a>
+                </li>
+
+                {% if site.author.facebook_username %}
+                <li>
+                    <a href="https://www.facebook.com/{{ site.author.facebook_username }}"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Facebook profile">
+                        <i class="fa fa-facebook fa-lg"></i>
+                    </a>
+                </li>
+                {% endif %}
+
+                {% if site.author.twitter_username %}
+                <li>
+                    <a href="https://twitter.com/{{ site.author.twitter_username }}"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Twitter profile">
+                        <i class="fa fa-twitter fa-lg"></i>
+                    </a>
+                </li>
+                {% endif %}
+
+                {% if site.author.email %}
+                <li>
+                    <a href="mailto:{{ site.author.email }}"
+                       aria-label="Email">
+                        <i class="fa fa-envelope-o fa-lg"></i>
+                    </a>
+                </li>
+                {% endif %}
+
+                {% if site.author.cv %}
+                <li>
+                    <a href="{{ site.author.cv }}"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Download CV">
+                        <i class="fa fa-file-pdf-o fa-lg"></i>
+                    </a>
+                </li>
+                {% endif %}
+
+            </ul>
+
+
+            <div style="height: 25px;"></div>
+
+
+            <!-- BIOGRAPHY -->
+            <p style="font-size: 22px;
+                      line-height: 1.65;
+                      color: #4e493f;
+                      margin: 0 auto;">
+                <span data-i18n="about_me.des">
+                    {{ site.author.desc }}
+                </span>
             </p>
 
-            <div style="height: 25px;"></div>
-
-
-<p style="font-size: 22px; line-height: 1.65; color: #4e493f; margin: 0 auto;">
-  <span data-i18n="about_me.des">{{ site.author.desc }}</span>
-</p>
 
             <div style="height: 25px;"></div>
-<a class="autumn-resume-btn"
-   href="{{ '/resume/' | prepend: site.baseurl }}">
-  <i class="fa fa-file-text-o" aria-hidden="true"></i>
-  <span>View Resume (in English)</span>
-  <span class="resume-arrow" aria-hidden="true">&rarr;</span>
-</a>
+
+
+            <!-- AUTUMN RESUME BUTTON -->
+            <a class="autumn-resume-btn"
+               href="{{ '/resume/' | prepend: site.baseurl }}">
+
+                <i class="fa fa-file-text-o"
+                   aria-hidden="true"></i>
+
+                <span>View Resume (in English)</span>
+
+                <span class="resume-arrow"
+                      aria-hidden="true">&rarr;</span>
+
+            </a>
+
+
             <div style="height: 15px;"></div>
+
         </div>
     </div>
+
 </div>
