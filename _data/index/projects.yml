@@ -15,12 +15,16 @@
     individual uniqueness, temporal dynamics, niche
     dimensionality and boundaries defined by reproductive success.
 
-- name: Coming soon
+- name: Individualised niche workflow
   i18n: comingsoon
   gh_user:
-  repo:
-  img:
-  desc:
+  repo: img:/static/assets/img/projects/indivnicheworkfl.png
+  desc: This project develops a framework for quantifying individualised 
+  ecological niches using animal movement data. It combines resource selection 
+  functions with multidimensional niche hypervolumes to measure niche 
+  breadth, overlap and individual specialisation. Implemented in R 
+  and demonstrated using northern lapwing tracking data, the 
+  framework can be applied to other mobile species.
 
 - name: Coming soon
   i18n: comingsoon
