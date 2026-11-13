@@ -320,6 +320,128 @@ permalink: /resume/
         <li class="atn-pub"><div class="atn-pub-year">2026</div><div><span class="atn-pub-title">Takola, E. (2026). From LSA to LLM: Evolution and limitations of topic modelling methods for biodiversity conservation.</span><p><em>Ecological Informatics</em>, p. 103725. <a href="https://doi.org/10.1016/j.ecoinf.2026.103725" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.ecoinf.2026.103725</a></p></div></li>
         <li class="atn-pub"><div class="atn-pub-year">2026</div><div><span class="atn-pub-title">Takola, E. (2026). The Individualised Niche in Motion; quantifying individualised niches with movement data.</span><p>Manuscript submitted. EcoEvoRxiv. <a href="https://doi.org/10.32942/X26074" target="_blank" rel="noopener noreferrer">https://doi.org/10.32942/X26074</a>. Data &amp; code available <a href="#" aria-label="Data and code link to be supplied">here</a>.</p></div></li>
       </ul>
+      
+      <!-- Additional 2026 publications -->
+      <ul class="atn-pubs">
+        <li class="atn-pub">
+          <div class="atn-pub-year">2026</div>
+          <div>
+            <span class="atn-pub-title">Martin, P., … Takola, E., … Oliver, K. (2026). Factors influencing the use of scientific evidence in conservation practice and policy: insights from a systematic map.</span>
+            <p>Manuscript submitted. EcoEvoRxiv. <a href="https://doi.org/10.32942/X2D08C">https://doi.org/10.32942/X2D08C</a></p>
+          </div>
+        </li>
+        <li class="atn-pub">
+          <div class="atn-pub-year">2026</div>
+          <div>
+            <span class="atn-pub-title">Turba, R., … Takola, E., … &amp; Marín, C. (2026). Global North-South science inequalities due to language and funding barriers.</span>
+            <p><em>Peer Community Journal</em>, 6. <a href="https://peercommunityjournal.org/articles/10.24072/pcjournal.677/">https://peercommunityjournal.org/articles/10.24072/pcjournal.677/</a></p>
+          </div>
+        </li>
+      </ul>
+
+      <h3 class="atn-subhead">2025</h3>
+      <ul class="atn-pubs">
+        <li class="atn-pub">
+          <div class="atn-pub-year">2025</div>
+          <div>
+            <span class="atn-pub-title">Esguerra, J., Grimm-Seyfarth, A., Frenzel, M. &amp; Takola, E. (2025). Tracking the hidden niches: Movement-based insights into northern lapwing intraspecific variation and conservation.</span>
+            <p><span class="atn-status">Under review</span> Data &amp; code and preprint links to be supplied.</p>
+          </div>
+        </li>
+        <li class="atn-pub">
+          <div class="atn-pub-year">2025</div>
+          <div>
+            <span class="atn-pub-title">Ivimey-Cook, E., ... Takola, E., ... Moran, N. (2025). From policy to practice: progress towards data- and code-sharing in ecology and evolution.</span>
+            <p><em>Proceedings of the Royal Society B: Biological Sciences</em>, 292(2055), 20251394. <a href="https://doi.org/10.1098/rspb.2025.1394">https://doi.org/10.1098/rspb.2025.1394</a>. Preprint link to be supplied.</p>
+          </div>
+        </li>
+        <li class="atn-pub">
+          <div class="atn-pub-year">2025</div>
+          <div>
+            <span class="atn-pub-title">Takola, E., Korell, L., Bonfanti, J., Beckmann, M., Reitz, T. &amp; Tamburini, G. (2025). Does sustainable agriculture promote biodiversity and yield? A second-order meta-analysis.</span>
+            <p><span class="atn-status">Under review</span> Data &amp; code and preprint links to be supplied.</p>
+          </div>
+        </li>
+        <li class="atn-pub">
+          <div class="atn-pub-year">2025</div>
+          <div>
+            <span class="atn-pub-title">Lagisz, M., Bairos-Novak, K. R., Martinig, A. R., Bertram, M., Mizuno, A., Sabet, S. S., ..., Takola, E., ... &amp; Nakagawa, S. (2025). Priced out of belonging? Insufficient concessions on membership fees across international societies in ecology and evolution.</span>
+            <p><em>Proceedings of the Royal Society B: Biological Sciences</em>, 292, 20241430. <a href="https://doi.org/10.1098/rspb.2024.1430">https://doi.org/10.1098/rspb.2024.1430</a></p>
+          </div>
+        </li>
+        <li class="atn-pub">
+          <div class="atn-pub-year">2025</div>
+          <div>
+            <span class="atn-pub-title">Noble, D. W., Xirocostas, Z. A., Wu, N. C., Martinig, A. R., Almeida, R. A., Bairos-Novak, K. R., ..., Takola, E., ... &amp; Lagisz, M. (2025). The promise of community-driven preprints in ecology and evolution.</span>
+            <p><em>Proceedings of the Royal Society B: Biological Sciences</em>, 292(2039). <a href="https://doi.org/10.1098/rspb.2024.1487">https://doi.org/10.1098/rspb.2024.1487</a></p>
+          </div>
+        </li>
+        <li class="atn-pub">
+          <div class="atn-pub-year">2025</div>
+          <div>
+            <span class="atn-pub-title">Gould, E., Fraser, H. S., Parker, T. H., Nakagawa, S., Griffith, S. C., Vesk, P. A., Fidler, F., ..., Takola, E., ... &amp; Tompkins, E. (2025). Same data, different analysts: variation in effect sizes due to analytical decisions in ecology and evolutionary biology.</span>
+            <p><em>BMC Biology</em>, 23, 35. <a href="https://doi.org/10.1186/s12915-024-02101-x">https://doi.org/10.1186/s12915-024-02101-x</a>. Data &amp; code link to be supplied.</p>
+          </div>
+        </li>
+      </ul>
+
+      <h3 class="atn-subhead">2024</h3>
+      <ul class="atn-pubs">
+        <li class="atn-pub">
+          <div class="atn-pub-year">2024</div>
+          <div>
+            <span class="atn-pub-title">Anochirim, M., Grainger, M., Stewart, G. &amp; Takola, E. (2024). The implementation of network meta-analysis in Ecology; a case study using crop yield data.</span>
+            <p><span class="atn-status">Under review</span> Data &amp; code and preprint links to be supplied.</p>
+          </div>
+        </li>
+      </ul>
+
+      <h3 class="atn-subhead">2023</h3>
+      <ul class="atn-pubs">
+        <li class="atn-pub">
+          <div class="atn-pub-year">2023</div>
+          <div>
+            <span class="atn-pub-title">Takola, E., Bonfanti, J., Seppelt, R. &amp; Beckmann, M. (2023). An open-access global database of meta-analyses investigating yield and biodiversity responses to different management practices.</span>
+            <p><em>Data in Brief</em>, 109696. <a href="https://doi.org/10.1016/j.dib.2023.109696">https://doi.org/10.1016/j.dib.2023.109696</a>. Data &amp; code link to be supplied.</p>
+          </div>
+        </li>
+      </ul>
+
+      <h3 class="atn-subhead">2022</h3>
+      <ul class="atn-pubs">
+        <li class="atn-pub">
+          <div class="atn-pub-year">2022</div>
+          <div>
+            <span class="atn-pub-title">Takola, E. &amp; Schielzeth, H. (2022). Hutchinson’s ecological niche for individuals.</span>
+            <p><em>Biology &amp; Philosophy</em>, 37, 25. <a href="https://doi.org/10.1007/s10539-022-09849-y">https://doi.org/10.1007/s10539-022-09849-y</a></p>
+          </div>
+        </li>
+        <li class="atn-pub">
+          <div class="atn-pub-year">2022</div>
+          <div>
+            <span class="atn-pub-title">Trappes, R., Nematipour, B., Kaiser, M. I., Krohs, U., van Benthem, K. J., Ernst, U. R., Gadau, J., Korsten, P., Kurtz, J., Schielzeth, H., Schmoll, T. &amp; Takola, E. (2022). How Individualized Niches Arise: Defining Mechanisms of Niche Construction, Niche Choice and Niche Conformance.</span>
+            <p><em>BioScience</em>, biac023. <a href="https://doi.org/10.1093/biosci/biac023">https://doi.org/10.1093/biosci/biac023</a></p>
+          </div>
+        </li>
+      </ul>
+
+      <h3 class="atn-subhead">2021</h3>
+      <ul class="atn-pubs">
+        <li class="atn-pub">
+          <div class="atn-pub-year">2021</div>
+          <div>
+            <span class="atn-pub-title">Takola, E., Krause, E., Müller, C. &amp; Schielzeth, H. (2021). Novelty at second glance: a critical appraisal of the novel object paradigm based on meta-analysis.</span>
+            <p><em>Animal Behaviour</em>, 180, 123–142. <a href="https://doi.org/10.1016/j.anbehav.2021.07.018">https://doi.org/10.1016/j.anbehav.2021.07.018</a>. Data &amp; code link to be supplied.</p>
+          </div>
+        </li>
+        <li class="atn-pub">
+          <div class="atn-pub-year">2021</div>
+          <div>
+            <span class="atn-pub-title">Moran, N., Caspers, B., Chakarov, N., Ernst, U., Fricke, C., Kurtz, J., Lilie, N., Ka Lo, L., Müller, C., R, R., Takola, E., Trimmer, P., van Benthem, K., Winternitz, J. &amp; Wittmann, M. (2021). Shifts between cooperation and antagonism driven by individual variation: a systematic synthesis review.</span>
+            <p><em>Oikos</em>. <a href="https://doi.org/10.1111/oik.08201">https://doi.org/10.1111/oik.08201</a></p>
+          </div>
+        </li>
+      </ul>
     </section>
   </div>
 
